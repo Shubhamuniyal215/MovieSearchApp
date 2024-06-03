@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif !important;
     margin: 0;
     padding: 0;
     background-color: #90A4AE
@@ -86,6 +86,10 @@ body {
     align-items: center;
 
 }
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
 
 .divLogo {
     display: flex;
@@ -112,8 +116,39 @@ body {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    background: #263238;
+    color: white;
 }
 
-#items p{
+#items .itemDetailsClass{
     width: 200px;
+    margin-left: 5px;
+}
+
+#searchForm input{
+     height: 40px;
+     /* width: 120%; */
+     border-radius: 10px;
+}
+
+#searchForm button{
+   
+    height: 40px;
+    border-radius: 20px;
+    width: 80px;
+    background: #546E7A;
+    color: white;
+    font-weight: 800;
+}
+
+.itemClass{
+    border: 1px black solid;
+    margin: 20px;
+    /* padding: 0px 5px; */
+    padding: 0px 0px 20px 0px;
+    background: #d6dcdf;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #fff;
+    background: #37474F;
+    color: white;
 }
